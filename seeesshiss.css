@@ -1,0 +1,33 @@
+:root {
+
+    --pageFg: #131313;
+    --pageBg: #e1e1e1;
+
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--pageBg);
+    color: var(--pageFg);
+}
+
+#intro-container {
+    width: 40vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#intro-container p {
+    font-family: "Ibarra Real Nova";
+    font-size: 4.5em;
+
+}
